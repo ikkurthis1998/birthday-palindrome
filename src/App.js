@@ -153,7 +153,7 @@ const App = () => {
 				Check
 			</button>
 			{loading && <img src={loadingGIF} className="loading" />}
-			<p className="message">{message}</p>
+			<span className="message">{message}</span>
 			{success === "yes" && <img src={yesGIF} className="yes" />}
 			{success === "no" && <img src={noGIF} className="no" />}
 		</div>
