@@ -1,0 +1,50 @@
+body {
+	background-color: rgba(255, 0, 0, 0.5);
+	color: white;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+}
+
+.input {
+	width: 300px;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 5px;
+	border: none;
+}
+
+.message {
+	font-size: 18px;
+}
+
+.button {
+	height: 30px;
+	width: 90px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.loading {
+	width: 360px;
+}
+
+.yes {
+	width: 360px;
+}
+
+.no {
+	width: 360px;
+}
